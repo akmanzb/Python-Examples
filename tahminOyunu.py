@@ -1,11 +1,15 @@
 # Sıcak - Soğuk Tahmin Oyunu
 
+import random
 import os
 os.system('clear')
 
 def tahminOyunu ():
-    sayi = 99
+    #sayi = 99
+    sayi = random.randint(0, 100) # 0-100 arasında random bir integer değer üretiliyor.
+    print(sayi)
     hak = 5
+    print("Aklımda 0 - 100 arasında bir sayı tuttum...")
     while True:
         tahminSayi = int(input(f"Aklımdaki sayıyı tahmin ediniz (Tahmin hakkınız : {hak}) : "))
         hak -= 1
