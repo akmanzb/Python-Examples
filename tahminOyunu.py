@@ -2,7 +2,7 @@
 
 import random
 import os
-os.system('clear')
+os.system('clear') # Consolu temizliyor. MacOS için 'clear' , Windows için 'cls'
 
 def tahminOyunu ():
     #sayi = 99
